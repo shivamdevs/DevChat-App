@@ -8,7 +8,7 @@ import MessageBox from '../chat/MessageBox';
 
 function ChatBody() {
 
-    const { connection, connectedUser } = useDevContext();
+    const { connectedUser } = useDevContext();
 
     const textareaRef = React.useRef(null);
 
